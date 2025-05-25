@@ -4,7 +4,7 @@ const app = express();
 // app.get("/", (req, res) => res.send("Express on Vercel"));
 
 app.use('/', function(req, res) {
-    res.sendfile('./client/camera.html');
+    res.sendfile('./frontend/components/home.html');
 });
 
 app.listen(3000, () => console.log("Server ready on port 3000."));
